@@ -1,0 +1,76 @@
+/*!
+ * Pin Card CSS
+ * By Chris
+*/
+
+/* 
+ *** Pin Card CSS ***
+ */
+
+.pin-card {
+	display: inline-block;
+	background: #FEFEFE;
+	border: 0px solid #FAFAFA;
+	border-radius: 6px;
+	box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
+	margin: 0 2px 25px;
+	-webkit-column-break-inside: avoid;
+	-moz-column-break-inside: avoid;
+	column-break-inside: avoid;
+	padding: 0px;
+	padding-bottom: 2px;
+	background: -webkit-linear-gradient(45deg, #FFF, #F9F9F9);
+	opacity: 1;
+	
+	-webkit-transition: all .2s ease;
+	-moz-transition: all .2s ease;
+	-o-transition: all .2s ease;
+	transition: all .2s ease;
+
+	max-width: 280px;
+}
+
+.pin-card img {
+	width: 100%;
+	/* border-bottom: 1px solid #ccc; */
+	padding-bottom: 8px;
+	margin-bottom: 2px;
+	border-radius: 6px;
+}
+
+.pin-card p {
+	font-size: 14px;
+	color: #333;
+	margin-left: 8px;
+	margin-right: 8px;
+}
+
+.pin-product-name {
+	display: block;
+	font-weight: bold;
+}
+
+.pin-company-name {
+	display: block;
+	font-size: 80%;
+}
+
+.pin-review {
+	display: block;
+	color: #FBB117;
+	font-size: 80%;
+}
+
+.pin-price {
+	display: block;
+}
+
+.pin-left {
+	text-align: left;
+	float: left;
+}
+
+.pin-right {
+	text-align: right;
+	float: right;
+}
