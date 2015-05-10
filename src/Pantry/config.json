@@ -1,0 +1,10 @@
+{
+  "AppSettings": {
+    "SiteTitle": "Pantry"
+  },
+  "Data": {
+    "DefaultConnection": {
+      "ConnectionString": "Server=(localdb)\\mssqllocaldb;Database=aspnet5-Pantry-ae9c075b-b4cf-4161-9d6a-e9ae83760bf4;Trusted_Connection=True;MultipleActiveResultSets=true"
+    }
+  }
+}
