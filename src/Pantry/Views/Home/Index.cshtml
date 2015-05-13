@@ -2,97 +2,228 @@
     ViewBag.Title = "Home Page";
 }
 
-<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="6000">
-    <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-        <li data-target="#myCarousel" data-slide-to="3"></li>
-    </ol>
-    <div class="carousel-inner" role="listbox">
-        <div class="item active">
-            <img src="~/images/ASP-NET-Banners-01.png" alt="ASP.NET" class="img-responsive">
-            <div class="container">
-                <div class="carousel-caption">
-                    <p>
-                        Learn how to build ASP.NET apps that can run anywhere.
-                        <a class="btn btn-default btn-default" href="http://go.microsoft.com/fwlink/?LinkID=525028&clcid=0x409">
-                            Learn More
-                        </a>
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="item">
-            <img src="~/images/Banner-02-VS.png" alt="Visual Studio" class="img-responsive">
-            <div class="container">
-                <div class="carousel-caption">
-                    <p>
-                        There are powerful new features in Visual Studio for building modern web apps.
-                        <a class="btn btn-default btn-default" href="http://go.microsoft.com/fwlink/?LinkID=525030&clcid=0x409">
-                            Learn More
-                        </a>
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="item">
-            <img src="~/images/ASP-NET-Banners-02.png" alt="Package Management" class="img-responsive">
-            <div class="container">
-                <div class="carousel-caption">
-                    <p>
-                        Bring in libraries from NuGet, Bower, and npm, and automate tasks using Grunt or Gulp.
-                        <a class="btn btn-default btn-default" href="http://go.microsoft.com/fwlink/?LinkID=525029&clcid=0x409">
-                            Learn More
-                        </a>
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="item">
-            <img src="~/images/Banner-01-Azure.png" alt="Microsoft Azure" class="img-responsive">
-            <div class="container">
-                <div class="carousel-caption">
-                    <p>
-                        Learn how Microsoft's Azure cloud platform allows you to build, deploy, and scale web apps.
-                        <a class="btn btn-default btn-default" href="http://go.microsoft.com/fwlink/?LinkID=525027&clcid=0x409">
-                            Learn More
-                        </a>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+    <!-- Header -->
+<header>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
 
-<div class="row">
-    <div class="col-md-4">
-        <h2>This application consists of:</h2>
-        <ul>
-            <li>Sample pages showing basic nav</li>
-            <li>Theming using <a href="http://go.microsoft.com/fwlink/?LinkID=398939">Bootstrap</a></li>
-        </ul>
+                <div class="intro-text">
+                    <span class="skills">Your local Sunday market online</span>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="col-md-4">
-        <h2>Customize app</h2>
-        <ul>
-            <li><a href="http://go.microsoft.com/fwlink/?LinkID=398600">Add Controllers and Views</a></li>
-            <li><a href="http://go.microsoft.com/fwlink/?LinkID=398602">Add Data using EntityFramework</a></li>
-            <li><a href="http://go.microsoft.com/fwlink/?LinkID=398603">Add Authentication using Identity</a></li>
-            <li><a href="http://go.microsoft.com/fwlink/?LinkID=398606">Add real time support using SignalR</a></li>
-            <li><a href="http://go.microsoft.com/fwlink/?LinkID=398604">Add Class library</a></li>
-            <li><a href="http://go.microsoft.com/fwlink/?LinkID=517848">Add client packages using Bower</a></li>
-            <li><a href="http://go.microsoft.com/fwlink/?LinkID=517849">Manage client packages using Grunt</a></li>
-            <li><a href="http://go.microsoft.com/fwlink/?LinkID=517850">Develop on different platforms</a></li>
-        </ul>
+</header>
+
+   <!-- Portfolio Grid Section -->
+<section id="portfolio">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2>Trending</h2>
+                <hr>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 col-sm-4 col-6">
+                <div class="pin-card">
+                    <a href="productPage.html"><img src="~/images/ei59.jpg" /></a>
+                    <div class="pin-left">
+                        <p>
+                            <span class="pin-product-name">Almond Butter</span>
+                            <span class="pin-company-name">Broken Food Company</span>
+                        </p>
+                    </div>
+                    <div class="pin-right">
+                        <p>
+                            <span class="pin-review">★★★★☆</span>
+                            <span class="pin-price">$12 per jar</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-4 col-6">
+                <div class="pin-card">
+                    <img src="~/images/ei33.jpg" />
+                    <div class="pin-left">
+                        <p>
+                            <span class="pin-product-name">Special tea</span>
+                            <span class="pin-company-name">Good Tea Together</span>
+                        </p>
+                    </div>
+                    <div class="pin-right">
+                        <p>
+                            <span class="pin-review">★★★★☆</span>
+                            <span class="pin-price">$30 per 500g</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-4 col-6">
+                <div class="pin-card">
+                    <img src="~/images/ei02.jpg" />
+                    <div class="pin-left">
+                        <p>
+                            <span class="pin-product-name">Thyme Sauerkraut</span>
+                            <span class="pin-company-name">Sauer Foods</span>
+                        </p>
+                    </div>
+                    <div class="pin-right">
+                        <p>
+                            <span class="pin-review">★★★★☆</span>
+                            <span class="pin-price">$14 per jar</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-4 col-6">
+                <div class="pin-card">
+                    <img src="~/images/ei04.jpg" />
+                    <div class="pin-left">
+                        <p>
+                            <span class="pin-product-name">Oregano Sauerkraut</span>
+                            <span class="pin-company-name">Sauer Foods</span>
+                        </p>
+                    </div>
+                    <div class="pin-right">
+                        <p>
+                            <span class="pin-review">★★★★☆</span>
+                            <span class="pin-price">$14 per jar</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-4 col-6">
+                <div class="pin-card">
+                    <img src="~/images/ei05.jpg" />
+                    <div class="pin-left">
+                        <p>
+                            <span class="pin-product-name">Original Organic Chutney</span>
+                            <span class="pin-company-name">Mad Tomatoes</span>
+                        </p>
+                    </div>
+                    <div class="pin-right">
+                        <p>
+                            <span class="pin-review">★★★★☆</span>
+                            <span class="pin-price">$8 per jar</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-4 col-6">
+                <div class="pin-card">
+                    <img src="~/images/ei06.jpg" />
+                    <div class="pin-left">
+                        <p>
+                            <span class="pin-product-name">Seasonal Honey</span>
+                            <span class="pin-company-name">Edens Nectar</span>
+                        </p>
+                    </div>
+                    <div class="pin-right">
+                        <p>
+                            <span class="pin-review">★★★★★</span>
+                            <span class="pin-price">$15 per jar</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-4 col-6">
+                <div class="pin-card">
+                    <img src="~/images/ei07.jpg" />
+                    <div class="pin-left">
+                        <p>
+                            <span class="pin-product-name">Cinnamon Honey</span>
+                            <span class="pin-company-name">Oak Creek Farms</span>
+                        </p>
+                    </div>
+                    <div class="pin-right">
+                        <p>
+                            <span class="pin-review">★★★★★</span>
+                            <span class="pin-price">$20 per jar</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-4 col-6">
+                <div class="pin-card">
+                    <img src="~/images/ei08.jpg" />
+                    <div class="pin-left">
+                        <p>
+                            <span class="pin-product-name">Cherry Jam</span>
+                            <span class="pin-company-name">The Dutch Kettle</span>
+                        </p>
+                    </div>
+                    <div class="pin-right">
+                        <p>
+                            <span class="pin-review">★★★★★</span>
+                            <span class="pin-price">$10 per jar</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="col-md-4">
-        <h2>Run & Deploy</h2>
-        <ul>
-            <li><a href="http://go.microsoft.com/fwlink/?LinkID=517851">Run your app locally</a></li>
-            <li><a href="http://go.microsoft.com/fwlink/?LinkID=517852">Run your app on ASP.NET Core 5</a></li>
-            <li><a href="http://go.microsoft.com/fwlink/?LinkID=517853">Run commands defined in your project.json</a></li>
-            <li><a href="http://go.microsoft.com/fwlink/?LinkID=398609">Publish to Microsoft Azure Web Sites</a></li>
-        </ul>
+</section>
+
+
+<!-- Footer -->
+<footer class="text-center">
+    <div class="footer-above">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col col-md-4">
+                    <h3>Location</h3>
+                    <p>3481 Melrose Place<br>Beverly Hills, CA 90210</p>
+                </div>
+                <div class="footer-col col-md-4">
+                    <h3>Around the Web</h3>
+                    <ul class="list-inline">
+                        <li>
+                            <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
+                        </li>
+                        <li>
+                            <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                        </li>
+                        <li>
+                            <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-dribbble"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-col col-md-4">
+                    <h3>About Freelancer</h3>
+                    <p>Freelance is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
+                </div>
+            </div>
+        </div>
     </div>
+    <div class="footer-below">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    Copyright &copy; Your Website 2014
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+<div class="scroll-top page-scroll visible-xs visible-sm">
+    <a class="btn btn-primary" href="#page-top">
+        <i class="fa fa-chevron-up"></i>
+    </a>
 </div>
