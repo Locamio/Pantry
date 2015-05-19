@@ -8,7 +8,7 @@ using Microsoft.AspNet.Mvc;
 
 namespace Pantry.Controllers
 {
-    public class HomeController1 : Controller
+    public class VendorController : Controller
     {
         // GET: /<controller>/
         public IActionResult Index()
