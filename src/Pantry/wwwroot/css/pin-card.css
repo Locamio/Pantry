@@ -7,6 +7,10 @@
  *** Pin Card CSS ***
  */
 
+.pin-margin {
+    margin: 0 -7px 10px -7px;
+}
+
 .pin-card {
 	display: inline-block;
 	background: #FEFEFE;
