@@ -16,6 +16,18 @@ namespace Pantry.Controllers
             return View();
         }
 
+        // GET: /<controller>/Product/2
+        public IActionResult Recent(int id)
+        {
+            return View();
+        }
+
+        // GET: /<controller>/Product/3
+        public IActionResult ProductByCategory(int id)
+        {
+            return View();
+        }
+
         // GET: /<controller>/Product/5
         public IActionResult Item(int id)
         {
