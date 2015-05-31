@@ -16,10 +16,10 @@ namespace Pantry.Controllers
             return View();
         }
 
-        // GET: /<controller>/Product/5
-        public IActionResult Item(int id)
+        // GET: /<controller>/5
+        public IActionResult Index(int id)
         {
-            return View();
+            return View("Product");
         }
     }
 }

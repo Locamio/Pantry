@@ -7,6 +7,10 @@
 /// <reference path="lib/hammer.js/hammer.js" />
 /// <reference path="lib/bootstrap/js/bootstrap.js" />
 /// <reference path="lib/bootstrap-touch-carousel/js/bootstrap-touch-carousel.js" />
+/// <reference path="lib/app/freelancer.js" />
+/// <reference path="lib/app/classie.js" />
+/// <reference path="lib/app/cbpAnimatedHeader.js" />
+/// <reference path="lib/app/bootstrap-dropdown.js" />
 <<<<<<< HEAD
 /// <reference path="../currentsite/js/cbpAnimatedHeader.js" />
 /// <reference path="../currentsite/js/bootstrap.js" />
