@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThePantry", "ThePantry\TheP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThePantry.Tests", "ThePantry.Tests\ThePantry.Tests.csproj", "{DAFBBA85-DC16-42AF-BB1B-6F3250D43E0B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThePantry.App", "ThePantry.App\ThePantry.App.csproj", "{0A9565CA-BDE3-4162-A449-175ACA5170EA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{DAFBBA85-DC16-42AF-BB1B-6F3250D43E0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DAFBBA85-DC16-42AF-BB1B-6F3250D43E0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DAFBBA85-DC16-42AF-BB1B-6F3250D43E0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A9565CA-BDE3-4162-A449-175ACA5170EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A9565CA-BDE3-4162-A449-175ACA5170EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A9565CA-BDE3-4162-A449-175ACA5170EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A9565CA-BDE3-4162-A449-175ACA5170EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
