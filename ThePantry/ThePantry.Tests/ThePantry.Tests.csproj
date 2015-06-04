@@ -6,7 +6,7 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{FF9F3B15-7EDA-4C69-AA22-B34233FF7D2F}</ProjectGuid>
+    <ProjectGuid>{DAFBBA85-DC16-42AF-BB1B-6F3250D43E0B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>ThePantry.Tests</RootNamespace>
@@ -93,7 +93,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ThePantry\ThePantry.csproj">
-      <Project>{5821FEFC-47D2-47D3-B382-6E4C1396F839}</Project>
+      <Project>{2AF81AC2-A5FE-4CF9-98F0-5C8ED3DF633F}</Project>
       <Name>ThePantry</Name>
     </ProjectReference>
   </ItemGroup>
