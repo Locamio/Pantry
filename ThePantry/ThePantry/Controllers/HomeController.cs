@@ -10,7 +10,7 @@ namespace ThePantry.Controllers
     {
         public ActionResult Index()
         {
-            return Redirect("~/home");
+            return View();
         }
     }
 }
