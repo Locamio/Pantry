@@ -57,6 +57,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App\all.min.js" />
     <Content Include="node_modules\del\index.js" />
     <Content Include="node_modules\del\node_modules\each-async\index.js" />
     <Content Include="node_modules\del\node_modules\each-async\node_modules\onetime\index.js" />
@@ -6146,7 +6147,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App\" />
+    <Folder Include="App\lib\" />
     <Folder Include="Content\css\" />
     <Folder Include="Content\images\" />
     <Folder Include="Content\less\" />
